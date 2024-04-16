@@ -1,0 +1,11 @@
+name: Workflow calling reusable workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Call_reusable_workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call reusable workflow
+        uses: ./.github/workflows/reusable_workflow.yml
