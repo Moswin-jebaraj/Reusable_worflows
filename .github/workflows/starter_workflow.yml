@@ -7,7 +7,5 @@ jobs:
   Call_reusable_workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Echo
-        run: echo "This is the job calling the reusable workflow"
       - name: Call reusable workflow
         uses: ./.github/workflows/reusable_workflow.yml
