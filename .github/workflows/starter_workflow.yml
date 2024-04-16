@@ -10,4 +10,4 @@ jobs:
     - name: echo message
       run: echo "Hi, I am starter workflow"
   Call_reusable_workflow:
-    uses: Moswin-jebaraj/Reusable_worflows/.github/workflows/reusable_workflow.yml@9a6757f8915c9f6beddb4c437e2509f8d833b1f3
+    uses: Moswin-jebaraj/Reusable_worflows/.github/workflows/reusable_workflow.yml@v1
