@@ -4,8 +4,10 @@ on:
   workflow_dispatch:
 
 jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo message
+      run: echo "Hi, I am starter workflow"
   Call_reusable_workflow:
     uses: ./.github/workflows/reusable_workflow.yml
-    
-    
-        
